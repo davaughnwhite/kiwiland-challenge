@@ -7,13 +7,20 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "demo": "node --loader tsx src/server.ts --demo"
+    "demo": "node --loader tsx src/server.ts --demo",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "express": "^4.19.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "@types/supertest": "^2.0.16",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.1",
     "tsx": "^4.19.1",
     "typescript": "^5.5.4"
   }
