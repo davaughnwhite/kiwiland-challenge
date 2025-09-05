@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { DEFAULT_GRAPH, parsePath } from "./graph";
+import { DEFAULT_GRAPH, parsePath } from "./graph.js";
 
 export const router = Router();
 
